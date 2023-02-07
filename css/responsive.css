@@ -1,10 +1,40 @@
 @media screen and (max-width:1000px) {
 
-    nav{
-        
-        flex-direction: column;
+ 
+header{
+    height : 25vh;
+} 
 
-    }
+nav{
+    height : 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav ul{
+   
+    justify-content: center;
+}
+
+.search{
+  
+    justify-content: center;
+   
+}
+
+.searchbar{
+   
+    margin : 0 auto;
+}
+
+
+.slider img{
+  width : 100%;
+  height : auto;
+}
+
+
+
 
   
 }
